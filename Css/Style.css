@@ -1,0 +1,376 @@
+*{
+    font-family: Roboto;
+}
+.container{
+    max-width: 1200px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: #fff;
+    position: fixed;
+}
+header img{
+    width: 128px;
+    height: 80px;   
+    margin-left: 200px;
+    margin-top: 10px;
+}
+header ul{
+    display: flex;
+    margin-top: 60px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 450px;
+}
+header ul li{
+    margin-left: 50px;
+    list-style: none;
+    color: #000;
+}
+header ul li:nth-child(5){
+    margin-left: 120px;
+}
+header ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: medium;
+}
+header ul li a:hover{
+    color: #ff0000;
+}
+
+/* =================== */
+.Main{
+    width: 100%;
+    height: 550px;
+    background-image: url(../Images/gif.gif);
+    background-size: 100%;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+}
+.Main span{
+    color: #ff0000;
+}
+.Main p{
+    width: 420px;
+    height: 220px;
+    font-size: 23px;
+    font-family: Roboto;
+    background-color: #ffffff80;
+    margin: auto;
+    border-radius: 20px;
+}
+.Main img{
+    width: auto;
+    height: 470px;
+    margin-right: 200px;
+}
+.container{
+    height: 450px;
+}
+.container nav{
+    display: flex;
+}
+.container h2{
+    color: #ff0000;
+    text-align: center;
+    padding-top: 20px;
+}
+.container ul{
+    padding-top: 80px;
+    margin-left: 200px;
+}
+.container ul li{
+    font-size: larger;
+    list-style: none;
+    margin: 10px;
+}
+.container .Vector{
+    width: 80px;
+    height: 350px;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.container nav p{
+    color: #ff0000;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 180px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+/* =============== */
+
+.ThirdContainer{
+    height: 650px;
+    background-color: #e9e9e9;
+}
+.ThirdContainer h2{
+    text-align: center;
+    margin-top: 30px;
+    color: #ff0000;
+    font-weight: bold;
+}
+.ThirdContainer p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: medium;
+}
+.ThirdContainer section{
+    width: 344px;
+    height: 142px;
+    background-image: url(../Images/Rectangle\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.rectangle1{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.rectangle1 section{
+    margin-left: 20px;
+}
+.rectangle1 section p{
+    text-align: center;
+    font-size: medium;
+    color: #fff;
+}
+.rectangle1 section:nth-child(2) p{
+    margin-top: 10px;
+}
+.rectangle1 section:nth-child(3) p{
+    margin-top: 20px;
+}
+
+.rectangle2{
+    display: flex;
+    margin: 100px;
+    margin-left: 200px;
+}
+.rectangle2 section{
+    width: 80px;
+    height: 80px;
+    background-image: url(../Images/Rectangle\ 2.png);
+    margin-left: 30px;
+    margin-top: -40px;
+}
+.rectangle2 section p{
+    margin-top: 15px;
+    font-size: medium;
+}
+
+/* ================= */
+
+.production{
+    height: 600px;
+}
+.production p{
+    text-align: center;
+    font-size: medium;
+}
+.Card section{
+    width: 365px;
+    height: 360px;
+    box-shadow: 0 0 10px #808080;
+    margin: 60px auto;
+    border-radius: 5px;
+}
+.Card1 p, .Card2 p{
+    font-size: large;
+    text-align: left;
+    margin: 20px;
+}
+
+/* ================*/
+
+.Algorithm{
+    height: 550px;
+    background-color: #e9e9e9;
+}
+.Algorithm h3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #ff0000;
+}
+.Algorithm section{
+    width: 300px;
+    height: 309px;
+    left: 865px;
+    top: 235px;
+
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0px 0 10px #808080;
+    border-radius: 10px;
+}
+.Algorithm h2{ 
+    font-weight: bold;
+    font-size: xx-large;
+    /* identical to box height */
+    text-align: center;
+    color: #333333;
+    margin: 20px;
+}
+.Algorithm section p{
+    text-align: center;
+    font-size: larger;
+}
+.Algorithm section p span{
+    font-weight: bold;
+}
+
+/* ======== */
+.Service{
+    height: 550px;
+}
+.Service h3{
+    color: #ff0000;
+    text-align: center;
+    padding-top: 20px;
+
+    font-size: xx-large;
+    font-weight: bold;
+}
+.services{
+    width: auto;
+    height: 420px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+.services img{
+    width: 344px;
+    height: 344px;
+    margin-left: 200px;
+}
+.ServSection{
+    width: 600px;
+    height: 310px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.ServSection p{
+    font-size: larger;
+}
+.SecP h6{
+    font-size: x-large;
+    font-weight: bolder;
+    color: #ff0000;
+}
+.SecP p {
+    width: 80%;
+    margin-left: 20px;
+    font-size: medium;
+}
+
+/* =========== */
+
+.LearnMore{
+    height: 550px;
+    background-color: #e9e9e9;
+}
+.LearnMore .container h3{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+
+    color: #ff0000;
+    padding-top: 30px;
+}
+.choose section{
+    width: 290px;
+    height: 317px;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-left: 40px;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px #808080;
+    transition: 0.7s;
+}
+.choose section:hover{
+    box-shadow: 0 0 15px #971b1b;
+    transition: 1s;
+}
+.choose section svg{
+    margin: 30px;
+    margin-left: 95px;  
+}
+.choose section p{
+    text-align: center;
+    margin-top: 20px;
+
+    font-size: large;
+}
+.LearnMore .container button{
+    width: 250px;
+    height: 60px;
+    margin-top: 40px;
+    margin-left: 550px;
+
+    border-radius: 10px;
+    color: #fff;
+    background-color: #F76350;
+    border: 1px solid #F76350;
+
+    font-size: large;
+    transition: 0.7s;
+}
+.LearnMore .container button:hover{
+   transition: 1s;
+   box-shadow: 0 0 13px #F76350;
+}
+
+/* ============ */
+
+footer{
+    height: 550px;
+}
+.fig{
+    display: block;
+    text-align: center;
+}
+.fig img{
+    width: 384px;
+    height: 300px;
+    margin-top: 30px;
+}
+footer h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer section{
+    width: 55%;
+    height: 50px;
+
+    margin: auto;
+    margin-top: 30px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    align-items: center;
+}
+footer section svg{
+    margin-right: 10px;
+}
+footer section p{
+    margin: 20px;
+    text-align: center;
+}
+footer h6{
+    text-align: center;
+    margin-top: 40px;
+
+    color: #808080;
+
+}
